@@ -32,6 +32,13 @@ export const generateMenu = (moves) => {
 export class Game {
   constructor(simpleMenu) {
     this.simpleMenu = simpleMenu;
+    this.rules = {
+      rock: { beats: ["scissors", "lizard"], loses: ["paper", "spock"] },
+      paper: { beats: ["rock", "spock"], loses: ["scissors", "lizard"] },
+      scissors: { beats: ["paper", "lizard"], loses: ["rock", "spock"] },
+      lizard: { beats: ["paper", "spock"], loses: ["rock", "scissors"] },
+      spock: { beats: ["rock", "scissors"], loses: ["paper", "lizard"] },
+    };
   }
 
   playRound(player, computer) {
@@ -40,51 +47,12 @@ export class Game {
     if (playerSelection === computerSelection) {
       console.log("It's a draw!");
     } else {
-      switch (playerSelection) {
-        case "rock":
-          if (
-            computerSelection === "scissors" ||
-            computerSelection === "lizard"
-          ) {
-            console.log("You win!");
-          } else {
-            console.log("You lose!");
-          }
-          break;
-        case "paper":
-          if (computerSelection === "rock" || computerSelection === "spock") {
-            console.log("You win!");
-          } else {
-            console.log("You lose!");
-          }
-          break;
-        case "scissors":
-          if (computerSelection === "paper" || computerSelection === "lizard") {
-            console.log("You win!");
-          } else {
-            console.log("You lose!");
-          }
-          break;
-        case "lizard":
-          if (computerSelection === "paper" || computerSelection === "spock") {
-            console.log("You win!");
-          } else {
-            console.log("You lose!");
-          }
-          break;
-        case "Spock":
-          if (
-            computerSelection === "rock" ||
-            computerSelection === "scissors"
-          ) {
-            console.log("You win!");
-          } else {
-            console.log("You lose!");
-          }
-          break;
-        default:
-          console.log("Invalid selection!");
-      }
+      const result = this.rules[playerSelection].beats.includes(
+        computerSelection
+      )
+        ? "You win!"
+        : "You lose!";
+      console.log(result);
     }
   }
 }

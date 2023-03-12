@@ -1,0 +1,25 @@
+{
+  "name": "rock-paper-scissors-game",
+  "version": "1.0.0",
+  "description": "## ℹAbout: This is a console game Rock Paper Scissoes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iFoxtrot33/rock-paper-scissors-game.git"
+  },
+  "author": "Iurii Furman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iFoxtrot33/rock-paper-scissors-game/issues"
+  },
+  "homepage": "https://github.com/iFoxtrot33/rock-paper-scissors-game#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

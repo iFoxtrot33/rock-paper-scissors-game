@@ -15,7 +15,7 @@ You can customize the game. The rules for losing will be generated as per this d
 
 
 ## 🌐Demo:
-https://youtu.be/uMAvAd7ioR0
+https://www.youtube.com/watch?v=bEMwVuxoSmA
 
 ## 💻To deploy localy:
 ```

@@ -4,7 +4,8 @@ import readlineSync from "readline-sync";
 class Game {
   constructor(args) {
     this.args = args;
-    this.key = this.generateKey();
+    this.key;
+    this.HMAC;
     this.computerChoice = null;
   }
 
@@ -37,9 +38,11 @@ class Game {
   }
 
   play() {
+    this.key = this.generateKey();
     this.computerChoice = this.generateComputerChoice();
     const hmac = this.getHMAC(this.args[this.computerChoice]);
-    console.log(`HMAC: ${hmac}`);
+    this.HMAC = hmac;
+    console.log(`HMAC: ${this.key}`);
   }
 
   getUserChoice() {

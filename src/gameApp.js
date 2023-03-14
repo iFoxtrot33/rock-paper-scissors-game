@@ -45,7 +45,7 @@ class GameApp {
           this.game.getComputerChoice()
         );
         console.log(`${winner}`);
-        console.log(`HMAC key: ${this.game.key}`);
+        console.log(`HMAC key: ${this.game.HMAC}`);
       } else {
         console.log("Invalid input. Please enter a valid choice.");
       }

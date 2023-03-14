@@ -4,7 +4,7 @@
 This is a customaizable console game Rock Paper Scissors. 
 
 ## ℹInstructions:
-You can customize the game. The rules for winning will be generated as per this diagram:
+You can customize the game. The rules for losing will be generated as per this diagram. So A will lose to B C D. 
 ![Game rules](https://user-images.githubusercontent.com/102408798/224920908-611ee82e-779a-4cbd-9856-9d3a45b94fe7.jpg)
 
 ### So you can add any odd number of arguments(minimum 3) and create your own Rock Paper Scissors Game!
@@ -15,7 +15,7 @@ You can customize the game. The rules for winning will be generated as per this 
 
 
 ## 🌐Demo:
-(not finished yet)
+[[(not finished yet)](https://youtu.be/uMAvAd7ioR0)](https://youtu.be/uMAvAd7ioR0)
 
 ## 💻To deploy localy:
 ```

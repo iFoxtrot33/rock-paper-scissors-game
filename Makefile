@@ -4,5 +4,8 @@ install:
 lint:
 	npx eslint .
 
-start:
-    node src/index.js
+simple:
+    node index.js Rock Paper Scissors
+
+complex:
+    node index.js Rock Paper Scissors Lizard Spock

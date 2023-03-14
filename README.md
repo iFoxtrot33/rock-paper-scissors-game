@@ -9,9 +9,9 @@ You can customize the game. The rules for winning will be generated as per this 
 
 ### So you can add any odd number of arguments(minimum 3) and create your own Rock Paper Scissors Game!
 
-- 💻To start classic Rock Paper Scissors Game type - make start classic simple game;
-- 💻To start complex Rock Paper Scissors Lizard Spock type- make start complex game;
-- 💻To start your custom game type - make start A B C D E F G
+- 💻To start classic Rock Paper Scissors Game type - make simple;
+- 💻To start complex Rock Paper Scissors Lizard Spock type- make complex;
+- 💻To start your custom game type - node index.js A B C D E F G
 
 
 ## 🌐Demo:
@@ -22,7 +22,7 @@ You can customize the game. The rules for winning will be generated as per this 
 1)git clone https://github.com/iFoxtrot33/rock-paper-scissors-game.git
 2)cd rock-paper-scissors-game
 3)make install
-4)make start
+4)make simple
 ```
 ## 🎛️Tests:
 <a href="https://codeclimate.com/github/iFoxtrot33/rock-paper-scissors-game/maintainability"><img src="https://api.codeclimate.com/v1/badges/a5c4e1ea57d247bc714a/maintainability" /></a>
@@ -31,5 +31,5 @@ You can customize the game. The rules for winning will be generated as per this 
 
 ## 🛠Stack:
 - JavaScript
-- Jest
+- Readline-Sync
 - ESlint / Prettier

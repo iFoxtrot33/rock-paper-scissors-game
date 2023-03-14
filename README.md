@@ -7,11 +7,11 @@ This is a customaizable console game Rock Paper Scissors.
 You can customize the game. The rules for winning will be generated as per this diagram:
 ![Game rules](https://user-images.githubusercontent.com/102408798/224920908-611ee82e-779a-4cbd-9856-9d3a45b94fe7.jpg)
 
-So you can add any odd number of arguments(minimum 3) and create your own Rock Paper Scissors Game
+### So you can add any odd number of arguments(minimum 3) and create your own Rock Paper Scissors Game!
 
-💻To start classic Rock Paper Scissors Game type - make start classic simple game;
-💻To start complex Rock Paper Scissors Lizard Spock type- make start complex game;
-💻To start your custom game type - make start A B C D E F G
+- 💻To start classic Rock Paper Scissors Game type - make start classic simple game;
+- 💻To start complex Rock Paper Scissors Lizard Spock type- make start complex game;
+- 💻To start your custom game type - make start A B C D E F G
 
 
 ## 🌐Demo:

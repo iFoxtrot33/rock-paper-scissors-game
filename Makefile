@@ -1,5 +1,11 @@
 install:
-    npm ci
+	npm ci
 
 lint:
-    npx eslint .
+	npx eslint .
+
+simple:
+	node index.js Rock Paper Scissors
+
+complex:
+	node index.js Rock Paper Scissors Lizard Spock
